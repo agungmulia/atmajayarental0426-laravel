@@ -132,7 +132,7 @@ class MitraController extends Controller
 
         $Mitra->NAMA_MITRA = $updateData['NAMA_MITRA'];
         $Mitra->ALAMAT_MITRA = $updateData['ALAMAT_MITRA'];
-        $Mitra->NO_TELP_MITRA = $updateData['NO_TELP_MITRA'];
+        $Mitra->NO_TELEPON_MITRA = $updateData['NO_TELEPON_MITRA'];
         $Mitra->NO_KTP_MITRA = $updateData['NO_KTP_MITRA'];
         
         if($Mitra->save()){
