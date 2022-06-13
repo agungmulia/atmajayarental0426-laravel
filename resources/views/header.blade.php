@@ -1,0 +1,1 @@
+<meta name="user-id" content="{{ Auth::user()->id }}">
