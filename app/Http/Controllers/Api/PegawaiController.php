@@ -21,7 +21,7 @@ class PegawaiController extends Controller
         $Pegawai = Pegawai::all();
 
         $Pegawai = DB::table('pegawai')
-            ->join('role', 'pegawai.ID_ROLE', '=', 'ROLE.ID_ROLE')// joining the contacts table , where user_id and contact_user_id are same
+            ->join('role', 'pegawai.ID_ROLE', '=', 'role.ID_ROLE')// joining the contacts table , where user_id and contact_user_id are same
             ->select('pegawai.*', 'role.NAMA_JABATAN')
             ->get();
 
