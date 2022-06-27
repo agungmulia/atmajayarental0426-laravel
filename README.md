@@ -62,3 +62,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Installation Tutorial
+1. intall Laravel
+2. deploy database
+3. add composer
+4. add passport
+5. install migration generator
+6. generate database migration
+
